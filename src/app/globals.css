@@ -45,12 +45,14 @@
 }
 
 .cont {
-  background-color: #d7d7d7;
+  background-color: rgba(255, 255, 255, 0.763);
   transition: transform 0.2s ease;
+  box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.2);
 }
 
 .cont:hover {
   transform: scale(1.1);
+  font-weight: 500;
 }
 
 .A {
@@ -111,8 +113,8 @@
 .About {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  gap: 150px
+  margin-top: 100px;
+  gap: 150px;
 }
 
 .divGambar {
@@ -121,6 +123,70 @@
   margin-top: 100px;
   gap: 200px
 }
+
+
+
+
+.divPaket {
+  background-color: rgba(255, 255, 255, 0.836);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.divPaket :hover {
+  font-weight: 500;
+  transform: scale(1.05);
+
+}
+
+.contentt {
+  background-color: rgba(255, 255, 255, 0.562);
+  padding: 130px;
+  box-shadow: 50px 30px 30px rgba(0, 0, 0, 0.15)
+}
+
+.fashion2 {
+  box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.2);
+}
+
+.cardService {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardService :hover {
+  font-weight: 500;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.cardContact {
+  border: solid black 2px;
+  background-color: rgba(255, 255, 255, 0.425);
+}
+
+.linkApp {
+  color: black;
+  cursor: pointer;
+}
+
+.testiCard{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+  
+}
+
+.testiCard :hover{
+  font-weight: 500;
+  transform: scale(1.05);
+ 
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -163,7 +229,7 @@
     gap: 30px
   }
 
-  .divGambar{
+  .divGambar {
     gap: 50px;
   }
 
