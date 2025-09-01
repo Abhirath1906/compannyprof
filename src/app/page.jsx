@@ -443,7 +443,7 @@ export default function Home() {
         <p className='com' style={{
           display: "flex", justifyContent: "center",
           fontSize: "50px", marginLeft: "50px"
-        }}>Companny <span style={{ color: "#7a6200", marginLeft: "10px" }}>CEO</span></p>
+        }}>Our <span style={{ color: "#7a6200", marginLeft: "10px" }}>Team</span></p>
 
       </div>
 
