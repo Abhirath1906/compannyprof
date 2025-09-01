@@ -82,6 +82,15 @@
   transform: scale(1.1);
 }
 
+
+.layoutt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
 .isilayout {
   font-size: 15px;
   gap: 20px;
@@ -100,7 +109,7 @@
 .swiper {
   height: 300px;
   width: 500px;
-  margin-right: 100px
+  margin-right: 100px;
 }
 
 .title {
@@ -143,7 +152,8 @@
 .contentt {
   background-color: rgba(255, 255, 255, 0.562);
   padding: 130px;
-  box-shadow: 50px 30px 30px rgba(0, 0, 0, 0.15)
+  box-shadow: 50px 30px 30px rgba(0, 0, 0, 0.15);
+  margin-top: 90px;
 }
 
 .fashion2 {
@@ -173,27 +183,60 @@
   cursor: pointer;
 }
 
-.testiCard{
+.testiCard {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
-  
+
 }
 
-.testiCard :hover{
+.testiCard :hover {
   font-weight: 500;
   transform: scale(1.05);
- 
+
 }
 
+.footerr {
+  display: flex;
+  background-color: black;
+  margin-top: 150px;
+  padding: 80px
+}
+
+.footerText {
+  color: white;
+  font-size: 30px;
+  font-Weight: 700
+}
+
+
+.isiFooter {
+  display: flex;
+  gap: 200px
+}
 
 
 @media (max-width: 768px) {
 
+  .isiFooter{
+    gap: 10px;
+  }
+
+
+  .footerText {
+    font-size: 10px;
+  }
+
+
+
   .isilayout {
     font-size: 15px;
     gap: 50px;
-    margin-left: 1px
+    color: white;
+  }
+
+  .footerr {
+    padding: 10px;
   }
 
   .inputt {
