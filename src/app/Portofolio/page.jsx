@@ -74,7 +74,9 @@ export default function Portofolio() {
 
             gsap.fromTo(".footerr", { y: 100, opacity: 0 }, {
                 y: 0, opacity: 1, duration: 1.3, scrollTrigger: {
-                    trigger: ".footerr"
+                    trigger: ".footerr",
+                    // markers: true,
+                    start: "-520 500"
                 }
             })
         }
@@ -230,7 +232,7 @@ export default function Portofolio() {
                 marginTop: "150px",
                 padding: "80px"
 
-            }}>
+                }}>
 
                 <div>
                     <Typography className='footerText' style={{ color: "white", fontSize: "30px", fontWeight: "700" }}>

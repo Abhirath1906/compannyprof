@@ -10,7 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FacebookOutlined, InstagramOutlined, XOutlined } from "@ant-design/icons";
 import { Layout, Flex, Input, Button, Typography, Space, Divider, Card, Row, Col, Spin } from "antd";
-import { CheckCircleOutlined, DownloadOutlined } from "@ant-design/icons";
+import { CheckCircleOutlined, PlusOutlined } from "@ant-design/icons";
 import "../app/globals.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -313,7 +313,7 @@ export default function Home() {
                 </Space>
                 <Space>
                   <CheckCircleOutlined />
-                  Formulir kontak terintegrasi email
+                  Pembuatan hingga 5 halaman 
                 </Space>
                 <Space>
                   <CheckCircleOutlined />
@@ -331,7 +331,7 @@ export default function Home() {
 
 
             </Typography.Paragraph>
-            <Button onClick={buy} icon={<DownloadOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
+            <Button onClick={buy} icon={<PlusOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
           </div>
         </Card>
 
@@ -378,7 +378,7 @@ export default function Home() {
 
 
             </Typography.Paragraph>
-            <Button onClick={buy} icon={<DownloadOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
+            <Button onClick={buy} icon={<PlusOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
           </div>
         </Card>
 
@@ -425,7 +425,7 @@ export default function Home() {
 
 
             </Typography.Paragraph>
-            <Button onClick={buy} icon={<DownloadOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
+            <Button onClick={buy} icon={<PlusOutlined />} style={{ backgroundColor: "black" }} type="primary">Buy Now</Button>
           </div>
         </Card>
 
